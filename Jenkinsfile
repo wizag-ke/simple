@@ -14,6 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying'
+                echo build.environment.get("GIT_URL")
             }
         }
     }
