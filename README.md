@@ -1,2 +1,2 @@
 # simple
-Simple
+This is a simple commit.
